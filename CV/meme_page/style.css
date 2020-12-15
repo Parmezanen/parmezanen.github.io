@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+body
+{
+    font-family:'Comfortaa',cursive ;
+    background: linear-gradient(to bottom, rgba(43, 95, 116, 0.897), rgba(112, 16, 88, 0.938))
+    no-repeat center center / cover;
+}
+
+.container
+{
+    width:90vw;
+    height: fit-content;
+    padding:0 15px;
+    border: 5px solid rgb(230, 230, 230);
+    margin:100px auto;
+    margin-bottom: 500px;
+    background: rgb(230, 230, 230);
+}
+
+
+@media (max-width: 875px)
+{
+    .container{
+        width: 90vw;
+    }
+    .nav-item{
+        font-size: 3vw;
+    }
+}
